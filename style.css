@@ -30,7 +30,8 @@ section {
 h1 {
   font-size: 5em;
   font-weight: 600;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
+  font-family: monospace;
 }
 
 ul {
