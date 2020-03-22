@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #222;
+  color: #C0FF00;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #C0FF00;
+}
+
+section {
+  max-width: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 600;
+  letter-spacing: 0.02em
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 2em 0;
+}
+
+li {
+  flex-grow: 1;
+}
+
+li a {
+  display: block;
+  width: 2em;
+  height: 2em;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-indent: -9999em;
+  margin: 0 auto;
+  opacity: .3;
+  transition: opacity .25s ease-in-out;
+}
+
+li a:hover {
+  opacity: .7;
+}
+
+.facebook {
+  background-image: url(img/social-1_logo-facebook.svg);
+}
+
+.linkedin {
+  background-image: url(img/social-1_logo-linkedin.svg);
+}
+
+.github {
+  background-image: url(img/social-1_logo-github.svg);
+}
+
+.instagram {
+  background-image: url(img/social-1_logo-instagram.svg);
+}
+
+.email {
+  background-image: url(img/email.svg);
+}
